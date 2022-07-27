@@ -1,0 +1,8 @@
+displayName = Insanity
+author = Smudgy
+version = 0.12
+hideCode = true
+hideResources = false
+includeSource = true
+buildIgnore = *.csproj, *.user, obj\*, bin\*, .vs\*, Old\*
+includePDB = true
