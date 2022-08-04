@@ -34,7 +34,7 @@ namespace Insanity.Content.NPCs
 
 		public override void SetStaticDefaults() {
 			DisplayName.SetDefault("Kraken");
-			Main.npcFrameCount[Type] = 1;
+			Main.npcFrameCount[Type] = 2;
 
 			// By default enemies gain health and attack if hardmode is reached. this NPC should not be affected by that
 			NPCID.Sets.DontDoHardmodeScaling[Type] = false;
